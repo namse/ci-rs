@@ -36,15 +36,7 @@ dependencies = [
 name = "ci-rs-runner"
 version = "0.1.0"
 dependencies = [
- "ci-rs-server-shared",
-]
-
-[[package]]
-name = "ci-rs-server-shared"
-version = "0.1.0"
-dependencies = [
  "ci-rs-core",
- "serde_yaml",
 ]
 
 [[package]]

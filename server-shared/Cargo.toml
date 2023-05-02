@@ -1,9 +1,10 @@
 [package]
-name = "ci-rs-runner"
+name = "ci-rs-server-shared"
 version = "0.1.0"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-ci-rs-server-shared = { path = "../server-shared" }
+ci-rs-core = { path = "../core" }
+serde_yaml = "0.9.21"
